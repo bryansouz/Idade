@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="idade.js">
+    <title>Idade</title>
+</head>
+<body>
+    
+    <div id="principal">
+
+    <header>
+        <h1>Verificador de idade</h1>
+      </header>   
+        
+      <section>
+      <div id="conteiner">
+            <p>Ano de Nascimento:
+                <input type="number" name="texto" id="texto" min="1920" max="2013" placeholder="1990">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="radiosex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radiosex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="verificador" onclick="verificar()">
+            </p>
+        </div><!--conteiner fim-->
+
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/bryan-souz/">
+            bryansouz</a>
+    </footer>
+
+    </div><!--principal fim-->
+
+    <script src="idade.js"></script>
+</body>
+</html>
